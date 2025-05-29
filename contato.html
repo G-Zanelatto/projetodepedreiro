@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recebacontact.css">
+    <title>Contato</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+        <header>
+            <img id="logo" src="https://media.pl-01.cdn-platform.com/cms/sites/image-1735828497541998.webp">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="biografia.html">
+                        <li>Biografia</li>
+                    </a>
+                    <a href="fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="banner"></div>
+
+        <div id="form-container">
+            <div id="login-section">
+                <form action="#">
+                    <h1> Faça Login</h1>
+
+                    <label class="formGroup">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                    </label>
+                    
+                    <label class="formGroup" >
+                        <input type="password" name="password" id="password" placeholder="Senha">
+                    </label>
+
+                    <label class="formGroup">
+                        <imput type="tel" name="tel" id="tel" placeholder="Telefone">
+                    </label>
+
+                    <label class="formGroup">
+                        <input type="tel" name="telefone" id="telefone" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}">
+                    </label>
+    
+                    <div class="formGroup">
+                        <label>Sexo:</label>
+                        <div class="radio-group">
+                            <label>
+                                <input type="radio" name="sexo" value="masculino" checked> Masculino
+                            </label>
+                            
+                            <label>
+                                <input type="radio" name="sexo" value="feminino"> Feminino
+                            </label>
+                        </div>
+                    </div>
+    
+                    <label class="formGroup">
+                        <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite sua pesquisa">
+                    </label>
+    
+                    <button type="submit" class="form-button">Login</button>
+            
+            
+        
+                </form>
+           </div>
+        </div>
+
+</body>
+</html>

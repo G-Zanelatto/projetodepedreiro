@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: orange;
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Times New Roman', Times, serif;
+} 
+
+li :hover {
+    color: orange;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzHr4WJekfBpbWF_Ups-MO7mzTy4ICeAy1bA&s') ;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.fotos {
+    width: 150px;
+    height: 200px;
+    display: flex;
+}
+
+.foto1 {
+    width: 200px;
+    height: 150px;
+}
+
+.foto2 {
+    width: 200px;
+    height: 150px;
+}
+
+.foto3 {
+    width: 200px;
+    height: 150px;
+}
+
+.foto4 {
+    width: 200px;
+    height: 150px;
+}
+
+
+.foto5 {
+    width: 200px;
+    height: 150px;
+}
+
+.foto6 {
+    width: 200px;
+    height: 150px;
+}
+
+.foto7 {
+    width: 200px;
+    height: 150px;
+}
